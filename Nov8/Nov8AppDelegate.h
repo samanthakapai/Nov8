@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Nov8AppDelegate : UIResponder <UIApplicationDelegate>
+@class View;
+
+@interface Nov8AppDelegate: UIResponder <UIApplicationDelegate> {
+	View *view;
+	UIWindow *_window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
-
 @end
+

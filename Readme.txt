@@ -1,0 +1,1 @@
+This app responds to the tap gesture and moves faster on tap. 

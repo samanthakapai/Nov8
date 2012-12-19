@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3692B9F167FE2C300DCEF6C /* Nov8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3692B9E167FE2C300DCEF6C /* Nov8AppDelegate.m */; };
 		A3DFE601167FCEA400E01077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE600167FCEA400E01077 /* UIKit.framework */; };
 		A3DFE603167FCEA400E01077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE602167FCEA400E01077 /* Foundation.framework */; };
 		A3DFE605167FCEA400E01077 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE604167FCEA400E01077 /* CoreGraphics.framework */; };
 		A3DFE60B167FCEA400E01077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DFE609167FCEA400E01077 /* InfoPlist.strings */; };
 		A3DFE60D167FCEA400E01077 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFE60C167FCEA400E01077 /* main.m */; };
-		A3DFE611167FCEA400E01077 /* Nov8AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFE610167FCEA400E01077 /* Nov8AppDelegate.m */; };
 		A3DFE619167FCEA400E01077 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE618167FCEA400E01077 /* SenTestingKit.framework */; };
 		A3DFE61A167FCEA400E01077 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE600167FCEA400E01077 /* UIKit.framework */; };
 		A3DFE61B167FCEA400E01077 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DFE602167FCEA400E01077 /* Foundation.framework */; };
 		A3DFE623167FCEA400E01077 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3DFE621167FCEA400E01077 /* InfoPlist.strings */; };
 		A3DFE626167FCEA400E01077 /* Nov8Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFE625167FCEA400E01077 /* Nov8Tests.m */; };
+		A3DFE63C167FDAE200E01077 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFE63B167FDAE200E01077 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3692B9D167FE29700DCEF6C /* Nov8AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nov8AppDelegate.h; sourceTree = "<group>"; };
+		A3692B9E167FE2C300DCEF6C /* Nov8AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nov8AppDelegate.m; sourceTree = "<group>"; };
 		A3DFE5FC167FCEA400E01077 /* Nov8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nov8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DFE600167FCEA400E01077 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A3DFE602167FCEA400E01077 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,14 +42,14 @@
 		A3DFE60A167FCEA400E01077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3DFE60C167FCEA400E01077 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3DFE60E167FCEA400E01077 /* Nov8-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nov8-Prefix.pch"; sourceTree = "<group>"; };
-		A3DFE60F167FCEA400E01077 /* Nov8AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov8AppDelegate.h; sourceTree = "<group>"; };
-		A3DFE610167FCEA400E01077 /* Nov8AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov8AppDelegate.m; sourceTree = "<group>"; };
 		A3DFE617167FCEA400E01077 /* Nov8Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nov8Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DFE618167FCEA400E01077 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A3DFE620167FCEA400E01077 /* Nov8Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nov8Tests-Info.plist"; sourceTree = "<group>"; };
 		A3DFE622167FCEA400E01077 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3DFE624167FCEA400E01077 /* Nov8Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nov8Tests.h; sourceTree = "<group>"; };
 		A3DFE625167FCEA400E01077 /* Nov8Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nov8Tests.m; sourceTree = "<group>"; };
+		A3DFE63B167FDAE200E01077 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		A3DFE63D167FDD8C00E01077 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +109,10 @@
 		A3DFE606167FCEA400E01077 /* Nov8 */ = {
 			isa = PBXGroup;
 			children = (
-				A3DFE60F167FCEA400E01077 /* Nov8AppDelegate.h */,
-				A3DFE610167FCEA400E01077 /* Nov8AppDelegate.m */,
+				A3DFE63D167FDD8C00E01077 /* View.h */,
+				A3692B9E167FE2C300DCEF6C /* Nov8AppDelegate.m */,
+				A3692B9D167FE29700DCEF6C /* Nov8AppDelegate.h */,
+				A3DFE63B167FDAE200E01077 /* View.m */,
 				A3DFE607167FCEA400E01077 /* Supporting Files */,
 			);
 			path = Nov8;
@@ -251,7 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3DFE60D167FCEA400E01077 /* main.m in Sources */,
-				A3DFE611167FCEA400E01077 /* Nov8AppDelegate.m in Sources */,
+				A3DFE63C167FDAE200E01077 /* View.m in Sources */,
+				A3692B9F167FE2C300DCEF6C /* Nov8AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +423,7 @@
 				A3DFE62B167FCEA400E01077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3DFE62C167FCEA400E01077 /* Build configuration list for PBXNativeTarget "Nov8Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +432,7 @@
 				A3DFE62E167FCEA400E01077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
